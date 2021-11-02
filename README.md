@@ -1,1 +1,1 @@
-# Group3MD
+# StudyGroupFind
