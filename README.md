@@ -13,14 +13,14 @@ Original App Design Project - README Template
 ### Description
 The app will be a study tool for students so that they may be able to find study partners and groups for class. Basically a rate my professor but for study groups with the added benefit of being able to contact each other within the app. This app is aimed to fix the problem of students needing to find partners or groups for their class assignment. The age range from this app is 13+.
 
-### App Evaluation
+### App 
 
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:**Social/ Educational 
+- **Mobile:**Used in a School setting 
+- **Story:**Found it hard to find study groups, this app makes it easy to find study groups (because it shows you people from your school that are taking the same class as you are people who are in the same major.
+- **Market:**Students (specifically those who prefer to study in groups).  
+- **Habit:**People who go to school need to study to do well in school, especially during exam time. It is also said that peer learning/teaching is a very effective way of retaining knowledge 
+- **Scope:**Students 
 
 ## Product Spec
 
