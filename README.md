@@ -11,10 +11,10 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+The app will be a study tool for students so that they may be able to find study partners and groups for class. Basically a rate my professor but for study groups with the added benefit of being able to contact each other within the app. This app is aimed to fix the problem of students needing to find partners or groups for their class assignment. The age range from this app is 13+.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:**
 - **Mobile:**
 - **Story:**
@@ -28,30 +28,51 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create a new account
+* User sets a profile picture 
+* User can login
+* User can search for other classes/majors/schools/
+* User can view study groups you are participating in (Profile) 
+* User can create a study group
+* User can use a chat system
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can add a comment to a study group 
+* User can tap a photo to view a more detailed photo screen with comments
+* User can see rate a class/course
+* User can see notifications when new participants join
+* User can make private study groups 
+* User can see their profile page with their photos
+* User can view other user’s profiles and see their photo feed
+* User can like a study group
+
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+   * User can login
+* Registration Screen
+   * User can create a new account
+* Stream (Profile) 
+   * User can view their study groups
+   * User can view profile 
+   * User can view study groups you are participating in 
+* Creation
+   * User can create study groups 
+   * Set a profile picture 
+   * User can use a chat system 
+* Search
+   * User can search for other classes/majors/school
+  
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Profile Screen/Home
+* Creation Screen
+* Search Screen 
 
 **Flow Navigation** (Screen to Screen)
 
