@@ -76,12 +76,17 @@ The app will be a study tool for students so that they may be able to find study
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen / Registration screen
+=> Profile (home screen)
+If no account, registration screen. Home screen will have profile and the different options to pick from
+* Registration Screen
+=> Home
+* Stream Screen (Profile Screen/Home) 
+=> Chat Creation Screen 
+* Creation Screen
+=> Home (after you finish making study group)
+* Search Screen
+=>  Home
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
