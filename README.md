@@ -90,7 +90,7 @@ If no account, registration screen. Home screen will have profile and the differ
 
 ## Wireframes
 
-<img src="https://github.com/yasminsenior02/Studifed/blob/main/IMG_2796.jpg" width=600>
+<img src="https://github.com/yasminsenior02/Studifed/blob/main/20211115_180940.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
