@@ -155,18 +155,18 @@ If no account, registration screen. Home screen will have profile and the differ
 #### [OPTIONAL:] Existing API Endpoints
 ##### StudyGroupFind
 
-   HTTP Verb | Endpoint              | Description
-   ----------|-----------------------|-------------
-    `GET`    | /studygroups          | gets all groups
-    `GET`    | /studygropus/byId/:id | gets specific studygroup by :id
-    `GET`    | /school               | get all school
-    `GET`    | /school/byId/:id      | get specific school by :id
-    `GET`    | /major                | get all major
-    `GET`    | /major/?name=name     | return specific major by name
-    `GET`    | /class                | gets all classes
-    `GET`    | /class/byId/:id       | gets specific class by :id
-    `GET`    | /teacher              | get all teacher
-    `GET`    | /teacher/?name=name   | return specific teacher by name
-    `GET`    | /studygroup/subject/:name | gets a studygroup's subject with a given name
-    `GET`    | /studygroup/class/:name   | gets a studygroup's class with a given name
-    `GET`    | /studygroup/teacher/:name | gets a studygroup's teacher with a given name
+  | HTTP Verb | Endpoint              | Description
+  |----------|-----------------------|-------------
+  | `GET`    | /studygroups          | gets all groups
+  | `GET`    | /studygropus/byId/:id | gets specific studygroup by :id
+  | `GET`    | /school               | get all school
+  | `GET`    | /school/byId/:id      | get specific school by :id
+  | `GET`    | /major                | get all major
+  | `GET`    | /major/?name=name     | return specific major by name
+  | `GET`    | /class                | gets all classes
+  | `GET`    | /class/byId/:id       | gets specific class by :id
+  | `GET`    | /teacher              | get all teacher
+  | `GET`    | /teacher/?name=name   | return specific teacher by name
+  | `GET`    | /studygroup/subject/:name | gets a studygroup's subject with a given name
+  | `GET`    | /studygroup/class/:name   | gets a studygroup's class with a given name
+  | `GET`    | /studygroup/teacher/:name | gets a studygroup's teacher with a given name
