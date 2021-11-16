@@ -100,7 +100,8 @@ If no account, registration screen. Home screen will have profile and the differ
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | userId        | String   | unique id for the user (default field) |
-   | imageId       | File     | user profile image |
+   | member        | Pointer to StudyGroup| studygroups user is member |
+   | imageId       | File (Pointer to User) | user profile image |
    | school        | String   | school of user |
    | major         | String   | major of user|
    | classification| String   | classification of user |
@@ -113,13 +114,39 @@ If no account, registration screen. Home screen will have profile and the differ
    | ------------- | -------- | ------------|
    | groupId       | String   | unique id for the group (default field) |
    | groupname     | String   | name of study group |
-   | groupimageId  | File     | group profile image |
+   | groupimageId  | File (Pointer to Group) | group profile image |
    | groupsubjcet  | String   | subjcet studied in group |
    | groupclassname| String   | name of class group members are in (optional) |
    | groupteacher  | String   | teacher of class group memebers are part of (optional)|
    | description   | String   | description of study group (optional) |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
+   ### Networking
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Query all studygroups where user is member
+         ```swift
+         let query = PFQuery(className:"StudyGroup")
+         query.whereKey("member", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+      - (Create/StudyGroup) Create a new study groups
+      - (Delete) Delete existing study groups
+      - (Create/StudyGroup) Create/Add new member
+      - (Delete) Delete existing study groups
+   - Create Study Group Screen
+      - (Create/StudyGroup) Create a new text
+   - Profile Screen
+      - (Read/GET) Query logged in userId
+      - (Update/PUT) Update user profile image
 
 
 ### Networking
