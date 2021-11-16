@@ -156,7 +156,7 @@ If no account, registration screen. Home screen will have profile and the differ
 ##### StudyGroupFind
 
    HTTP Verb | Endpoint | Description
-   ----------|----------|------------
+   ----------|----------|-------------
     `GET`    | /studygroups | gets all groups
     `GET`    | /studygropus/byId/:id | gets specific studygroup by :id
     `GET`    | /school | get all school
