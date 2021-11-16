@@ -100,7 +100,7 @@ If no account, registration screen. Home screen will have profile and the differ
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | userId        | String   | unique id for the user (default field) |
-   | member        | Pointer to StudyGroup| studygroups user is member |
+   | groupmemberId | Pointer to User to Studygroup| studygroups user is member of |
    | imageId       | File (Pointer to User) | user profile image |
    | school        | String   | school of user |
    | major         | String   | major of user|
@@ -113,6 +113,7 @@ If no account, registration screen. Home screen will have profile and the differ
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | groupId       | String   | unique id for the group (default field) |
+   | groupmemberId | String   | unique id for the user as part of a specific group (default field) |
    | groupname     | String   | name of study group |
    | groupimageId  | File (Pointer to Group) | group profile image |
    | groupsubjcet  | String   | subjcet studied in group |
