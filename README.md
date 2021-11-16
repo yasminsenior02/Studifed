@@ -140,85 +140,32 @@ If no account, registration screen. Home screen will have profile and the differ
          ```
       - (Create/StudyGroup) Create a new study groups
       - (Delete) Delete existing study groups
-      - (Create/StudyGroup) Create/Add new member
-      - (Delete) Delete existing study groups
    - Create Study Group Screen
       - (Create/StudyGroup) Create a new text
    - Profile Screen
       - (Read/GET) Query logged in userId
       - (Update/PUT) Update user profile image
+ - Group Detail Screen
+      - (Read/GET) Query logged in group
+      - (Update/PUT) Update group profile image 
+      - (Create/StudyGroup) Create/Add new member
+      - (Delete) Delete existing study groups
 
-
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-
-
-
-
-## Schema 
-### Models
-#### Post
-
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
-### Networking
-#### List of network requests by screen
-   - Home Feed Screen
-      - (Read/GET) Query all posts where user is author
-         ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
-         }
-         ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
-   - Profile Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
 #### [OPTIONAL:] Existing API Endpoints
-##### An API Of Ice And Fire
-- Base URL - [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api)
+##### StudyGroupFind
 
    HTTP Verb | Endpoint | Description
    ----------|----------|------------
-    `GET`    | /characters | get all characters
-    `GET`    | /characters/?name=name | return specific character by name
-    `GET`    | /houses   | get all houses
-    `GET`    | /houses/?name=name | return specific house by name
-
-##### Game of Thrones API
-- Base URL - [https://api.got.show/api](https://api.got.show/api)
-
-   HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /cities | gets all cities
-    `GET`    | /cities/byId/:id | gets specific city by :id
-    `GET`    | /continents | gets all continents
-    `GET`    | /continents/byId/:id | gets specific continent by :id
-    `GET`    | /regions | gets all regions
-    `GET`    | /regions/byId/:id | gets specific region by :id
-    `GET`    | /characters/paths/:name | gets a character's path with a given name
-
-
+    `GET`    | /studygroups | gets all groups
+    `GET`    | /studygropus/byId/:id | gets specific studygroup by :id
+    `GET`    | /school | get all school
+    `GET`    | /school/byId/:id | get specific school by :id
+    `GET`    | /major   | get all major
+    `GET`    | /major/?name=name | return specific major by name
+    `GET`    | /class | gets all classes
+    `GET`    | /class/byId/:id | gets specific class by :id
+    `GET`    | /teacher | get all teacher
+    `GET`    | /teacher/?name=name | return specific teacher by name
+    `GET`    | /studygroup/subject/:name | gets a studygroup's subject with a given name
+    `GET`    | /studygroup/class/:name | gets a studygroup's class with a given name
+    `GET`    | /studygroup/teacher/:name | gets a studygroup's teacher with a given name
