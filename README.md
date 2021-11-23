@@ -1,4 +1,4 @@
-Original App Design Project - README Template
+Original App Design Project - README 
 ===
 
 # StudyGroupFind
@@ -170,3 +170,14 @@ If no account, registration screen. Home screen will have profile and the differ
   | `GET`    | /studygroup/subject/:name | gets a studygroup's subject with a given name
   | `GET`    | /studygroup/class/:name   | gets a studygroup's class with a given name
   | `GET`    | /studygroup/teacher/:name | gets a studygroup's teacher with a given name
+  
+  
+  Build Sprint - StudyGroupFind
+===
+  
+  # Milestone 1 
+  
+  
+  <img src="https://github.com/yasminsenior02/Studifed/blob/main/20211115_180940.jpg" width=600>
+  
+  
