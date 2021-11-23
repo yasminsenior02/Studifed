@@ -179,6 +179,6 @@ If no account, registration screen. Home screen will have profile and the differ
   
   
   
-  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%201).gif" width=600>
+  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%201).gif" width=240>
   
   
