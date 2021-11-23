@@ -178,6 +178,7 @@ If no account, registration screen. Home screen will have profile and the differ
   # Milestone 1 
   
   
-  <img src="https://github.com/yasminsenior02/Studifed/blob/main/20211115_180940.jpg" width=600>
+  
+  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%201).gif" width=600>
   
   
