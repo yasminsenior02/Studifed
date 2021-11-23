@@ -177,7 +177,17 @@ If no account, registration screen. Home screen will have profile and the differ
   
   # Milestone 1 
   
- 
+  ##Goals 
+  * Create Home Feed Screen
+  * Create Login Screen
+  * Parse Server 
+  
+  ### Achived 
+  - [x] Login Screen
+  - [x] Parse Sever
+  
+  ### Working Process 
+  - [ ] Home Feed Screen
   
   ## Video Walkthrough
 
