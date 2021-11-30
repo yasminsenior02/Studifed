@@ -234,6 +234,7 @@ Here's a walkthrough of implemented user stories:
   ### Achived 
   - [x] Fix Registration Screen
   - [x] Navigation Bar
+  - [ ] Work on Home Screen
   
   ### Working Process 
   - [ ] Home Feed Screen
