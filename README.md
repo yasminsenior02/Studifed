@@ -227,13 +227,13 @@ Here's a walkthrough of implemented user stories:
    # Milestone 2
   
   ## Goals 
-  * Create Home Feed Screen
-  * Create Login Screen
-  * Parse Server 
+  * Work on Home Feed Screen
+  * Fix Registration Screen
+  * Navigation Bar
   
   ### Achived 
-  - [] Login Screen
-  - [] Parse Sever
+  - [x] Fix Registration Screen
+  - [x] Navigation Bar
   
   ### Working Process 
   - [ ] Home Feed Screen
@@ -242,7 +242,7 @@ Here's a walkthrough of implemented user stories:
 
 Here's a walkthrough of implemented user stories:
 
-  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%201).gif" width=240>
+  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%202).gif" width=240>
   
   GIF created with [LiceCap](http://www.cockos.com/licecap/).
   
