@@ -247,8 +247,6 @@ Here's a walkthrough of implemented user stories:
   GIF created with [LiceCap](http://www.cockos.com/licecap/).
   
   ## Notes 
-  Lots of issues for the first build sprint. It worked better before and actually logged in but now it doesn't. Dont have a GIF of when it was working. 
-  
   
   
   ## Open-source libraries used
