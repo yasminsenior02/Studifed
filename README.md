@@ -275,16 +275,17 @@ Here's a walkthrough of implemented user stories:
   
   ## Goals 
   * Work on Home Feed Screen
-  * Fix Registration Screen
-  * Navigation Bar
+  * Create Profile Detail Screen 
+  * Scroll on Home Screen
+  * Build up Profile Detail Screen
   
   ### Achived 
-  - [x] Fix Registration Screen
-  - [x] Navigation Bar
-  - [ ] Work on Home Screen
+  - [x] Work on Home Screen
+  - [x] Create Profile Detail Screen
+  - [x] Scroll on Home Screen 
   
   ### Working Process 
-  - [ ] Home Feed Screen
+  - [ ] Build up Profile Etail Screen 
   
   ## Video Walkthrough
 
@@ -293,8 +294,6 @@ Here's a walkthrough of implemented user stories:
   <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%203).gif" width=240>
   
   GIF created with [LiceCap](http://www.cockos.com/licecap/).
-  
-  ## Notes 
   
   
   ## Open-source libraries used
