@@ -362,6 +362,8 @@ Here's a walkthrough of implemented user stories:
 Demo Day
 ===
 
+Link to code: https://github.com/danagoodridge/StudyGroupFind.git
+
 
 
   
