@@ -365,6 +365,7 @@ Demo Day
 Link to code: https://github.com/danagoodridge/StudyGroupFind.git
 
 Link to Create a narrated walkthrough video of your completed app: 
+https://youtu.be/ckol_uUcNs8
 
 
 
