@@ -333,7 +333,7 @@ Here's a walkthrough of implemented user stories:
 
 Here's a walkthrough of implemented user stories:
 
-  <img src=" " width=240>
+  <img src="https://github.com/yasminsenior02/Studifed/blob/main/walkthrough(MIilestone%204).gif" width=240>
   
   GIF created with [LiceCap](http://www.cockos.com/licecap/).
   
