@@ -361,7 +361,7 @@ Here's a walkthrough of implemented user stories:
   
 Demo Day
 ===
-
+The ZIP of the App is above
 Link to code: https://github.com/danagoodridge/StudyGroupFind.git
 
 Link to Create a narrated walkthrough video of your completed app: 
