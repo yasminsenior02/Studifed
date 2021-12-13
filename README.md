@@ -285,7 +285,7 @@ Here's a walkthrough of implemented user stories:
   - [x] Scroll on Home Screen 
   
   ### Working Process 
-  - [ ] Build up Profile Etail Screen 
+  - [ ] Build up Profile Dtail Screen 
   
   ## Video Walkthrough
 
@@ -317,5 +317,51 @@ Here's a walkthrough of implemented user stories:
     See the License for the specific language governing permissions and
     limitations under the License.
     
-    
+   # Milestone 4
+  
+  ## Goals 
+  * Build up Profile Detail Screen
+  * Create Feature Screen
+  
+  
+  ### Achived 
+  - [x] Create Feature Screen
+  - [x] Build up Profile Detail Screen 
+  
+
+  ## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+  <img src=" " width=240>
+  
+  GIF created with [LiceCap](http://www.cockos.com/licecap/).
+  
+  
+  ## Open-source libraries used
+
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+  
+Demo Day
+===
+
+
+
   
